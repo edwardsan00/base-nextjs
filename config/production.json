@@ -1,0 +1,19 @@
+{
+  "baseUrl": "http://www.professor-room.com",
+  "api": {
+    "uri": "http://www.professor-room.com/graphql",
+    "credentials": "same-origin"
+  },
+  "debug": false,
+  "cache": {
+    "enable": true,
+    "whitelist": []
+  },
+  "session": {
+    "cookieDomain": "www.professor-room.com",
+    "maxAge": 86400,
+    "cookiePrefix": "",
+    "path": "/",
+    "httpOnly": true
+  }
+}

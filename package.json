@@ -1,0 +1,38 @@
+{
+  "name": "professor-room",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "babel-node src/server.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/edwardsan/professor-room.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/edwardsan/professor-room/issues"
+  },
+  "homepage": "https://gitlab.com/edwardsan/professor-room#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.9.13",
+    "clsx": "^1.1.0",
+    "express": "^4.17.1",
+    "next": "^9.3.6",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "babel-preset-next": "^1.2.0",
+    "module-alias": "^2.2.2"
+  }
+}
