@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "babel-node src/server.js",
+    "devServer": "babel-node src/server.js",
+    "dev": "next",
     "build": "next build",
     "start": "cross-env NODE_ENV=production babel-node src/server.js"
   },

@@ -4,7 +4,7 @@ import HomeText from 'components/Home'
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <h1>Home recarga ok</h1>
       <Button color='primary' variant='contained'>Material</Button>
       <HomeText/>
     </div>
