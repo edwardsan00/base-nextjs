@@ -6,8 +6,8 @@ import moduleAlias from 'module-alias'
 moduleAlias.addAliases({
   components: __dirname + '/componenets',
   containers: __dirname + '/containers',
-  pages: __dirname + '/pages',
-  utils: __dirname + '/utils'
+  pages     : __dirname + '/pages',
+  utils     : __dirname + '/utils'
 })
 const dev = process.env.NODE_ENV !== 'production'
 

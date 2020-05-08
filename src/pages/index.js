@@ -6,7 +6,7 @@ const Home = () => {
     <div>
       <h1>Home</h1>
       <Button color='primary' variant='contained'>Material</Button>
-      <HomeText/>
+      <HomeText />
     </div>
   )
 }
